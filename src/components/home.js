@@ -25,7 +25,7 @@ function Home() {
               <h2>Follow my work</h2>
                 <a className="media" href="https://www.linkedin.com/in/jasmine-franklin-8b08ba121">LinkedIn</a>
                 <a className="media" href="https://github.com/Jas-F">Github</a>
-                <a className="media" href="New Resume.pdf">Resume</a>
+                <a className="media" href="Resume.pdf">Resume</a>
               </Col>
           </Row>
       </Container>
