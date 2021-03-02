@@ -14,7 +14,7 @@ function Projects() {
     </Nav>
     
   </Navbar>
-  {/* add container displaying personall project  */}
+  {/* add container displaying personal project  */}
   <Container>
   <Row>
       <Col sm={6}> <h1>Jasmine Franklin</h1>
