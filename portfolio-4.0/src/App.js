@@ -1,7 +1,7 @@
 
 import './App.css';
-import Projects from '../src/components/projects';
-import Home from '../src/components/home';
+import Projects from './components/projects';
+import Home from './components/home';
 
 function App() {
   return (
