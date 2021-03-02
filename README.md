@@ -57,7 +57,7 @@ Build a react based portfolio
 
 ## Deployed Link
 
-* [See Live Site](https://jas-f.github.io/portfolio-4.0/)
+* [See Live Site](https://portfolio04.herokuapp.com/)
 
 ## License
 
