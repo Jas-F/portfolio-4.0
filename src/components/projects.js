@@ -1,6 +1,14 @@
 import React from 'react';
 import './projects.css'; 
+// import profile images
 import portfolioSite from "../Assets/3.0.png";
+import book from "../Assets/booklist.png";
+import generator from "../Assets/generator.png";
+import live from "../Assets/liveSite.png";
+import profile from "../Assets/profile.png";
+import resp from "../Assets/responsive.png";
+import team from "../Assets/team.png";
+
 // import components from other packages
 import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap';
 import {Link} from "react-router-dom";
