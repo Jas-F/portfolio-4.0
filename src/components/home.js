@@ -2,15 +2,17 @@ import React from 'react';
 import './home.css';
 // import components from other packages
 import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap';
+import {Link} from "react-router-dom";
 
 // create navbar
-function home() {
+function Home() {
     return (
         <div>
+          {/* show project route using link */}
         <Navbar bg="primary" variant="dark">
         <Navbar.Brand href="home.js">Navbar</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="projects.js">Projects</Nav.Link>
+          <Nav><Link to="/projects">Projects</Link></Nav>
         </Nav>
         
       </Navbar>
@@ -32,4 +34,4 @@ function home() {
     )
 }
 
-export default home;
+export default Home;

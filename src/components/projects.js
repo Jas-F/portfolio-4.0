@@ -3,7 +3,7 @@ import './projects.css';
 // import components from other packages
 import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap';
 
-function projects() {
+function Projects() {
   return (
     <div>
     <Navbar bg="primary" variant="dark">
@@ -34,4 +34,4 @@ function projects() {
   )
 }
 
-export default projects;
+export default Projects;

@@ -1,6 +1,7 @@
 // remove portfolio folder to deploy
 import './App.css';
-import{Route, Router} from "react-router-dom";
+// 
+import{Route, Router,Switch} from "react-router-dom";
 import Projects from "./components/projects";
 // import Projects from './components/projects';
 import Home from './components/home.js';
@@ -9,7 +10,9 @@ import Home from './components/home.js';
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* router that initializes routes */}
+      <BrowRouter>
+        <Switch>
       <Route path="/">
       <Home />
       </Route>
@@ -17,6 +20,7 @@ function App() {
       <Route exact path= "/projects">
         <Projects/>
       </Route>
+      </Switch>
       </Router>
     
     </div>
