@@ -13,7 +13,7 @@ function App() {
       {/* router that initializes routes */}
       <Router>
         <Switch>
-      <Route path="/">
+      <Route exact path="/">
       <Home />
       </Route>
       {/* add router that requires exact path to projects */}

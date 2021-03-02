@@ -2,12 +2,13 @@ import React from 'react';
 import './projects.css'; 
 // import components from other packages
 import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap';
+import {Link} from "react-router-dom";
 
 function Projects() {
   return (
     <div>
     <Navbar bg="primary" variant="dark">
-    <Navbar.Brand href="home.js">Navbar</Navbar.Brand>
+    <Navbar.Brand><Link to="/">Navbar</Link></Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link>Projects</Nav.Link>
     </Nav>

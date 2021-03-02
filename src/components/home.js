@@ -10,7 +10,7 @@ function Home() {
         <div>
           {/* show project route using link */}
         <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="home.js">Navbar</Navbar.Brand>
+        <Navbar.Brand>Navbar</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav><Link to="/projects">Projects</Link></Nav>
         </Nav>
